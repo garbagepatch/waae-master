@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 0995405a-a2cc-45e4-b346-23db55e5cff1
+    AppIdChat: 950e457a-039d-444d-9e50-3328cf21849d
+    AppIdVoice: b92ad2c2-4f32-4ddb-b013-5fde3066dbec
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: 
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: 
+  PunLogging: 2
+  EnableSupportLogger: 1
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - ChangeColour
+  - CrossFadeInFixedTime
+  - FloatInvoke
+  - GameObjectInvoke
+  - GenericSync_SetPosRot
+  - GenericSync_SetTrigger
+  - InvokeNoInputEvent
+  - Item_NetworkDestroy
+  - MasterClientInstantiate
+  - MeleeManager_ReceiveSetLeftWeapon
+  - MeleeManager_ReceiveSetRightWeapon
+  - NetworkCollect
+  - NetworkDestroySelf
+  - NetworkEnterLadder
+  - NetworkExitLadder
+  - NetworkInstantiate
+  - NetworkJump
+  - NetworkOnPressInput
+  - NetworkOnReceiveDamage
+  - NetworkPlayerPlayAnimation
+  - NetworkSceneCollected
+  - NetworkSetActive
+  - PlayerDropItem
+  - ReceiveDamage
+  - ResetTriggers
+  - SendDamage
+  - SendNetworkBreakObject
+  - SendToScene
+  - SetActiveRagdoll
+  - SetPositionRotation
+  - SetTeam
+  - SetTriggers
+  - UpdateEntrancePoint
+  - UseRigidBodyGravity
+  - AnimatorActionState
+  - GenericAction_EndAction
+  - DestroyArrow
+  - LoadIKAdjustCatagory
+  - PullTrigger
+  - SetAnimatorLayerWeights
+  - SetArrowPositionRotation
+  - ShooterWeaponEmptyClip
+  - ShooterWeaponOnChangerPowerCharger
+  - ShooterWeaponOnDisableAim
+  - ShooterWeaponOnEnableAim
+  - ShooterWeaponOnFinishAmmo
+  - ShooterWeaponOnFinishReload
+  - ShooterWeaponOnFullPower
+  - ShooterWeaponReload
+  - ShooterWeaponShot
+  - ShooterWeaponShotWithPosition
+  - SyncTriggerEnter
+  - SyncTriggerExit
+  - vShooterManager_ReceiveSetLeftWeapon
+  - vShooterManager_ReceiveSetRightWeapon
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 0
